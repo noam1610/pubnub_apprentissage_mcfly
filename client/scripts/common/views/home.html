@@ -1,0 +1,30 @@
+<div class="input">
+    channel :
+    <input type="text" placeholder="test" ng-model="vm.channel">
+</div>
+<div class="input">
+    message :
+    <input type="text" placeholder="test" ng-model="vm.message">
+</div>
+<button class="button button-stable" ng-click="vm.sendMessage()">
+    Send Message
+</button>
+
+<hr>
+
+<div class="input">
+    Canal :
+    <input type="text" placeholder="test" ng-model="vm.canalRead">
+</div>
+<button class="button button-stable" ng-click="vm.linkChannel(vm.canalRead)">
+    Send Message
+</button>
+
+<div>
+    <h2>Message lu sur {{vm.canalRead}}</h2>
+    <div class="list list-inset">
+        <div class="item" ng-repeat="message in vm.listMessage">
+        TORO
+        </div>
+    </div>
+</div>
