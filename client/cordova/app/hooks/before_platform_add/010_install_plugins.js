@@ -25,7 +25,9 @@ var pluginlist = [
     'cordova-plugin-whitelist',
     'ionic-plugin-keyboard',
     'https://github.com/testfairy/testfairy-cordova-plugin',
-    'ionic-plugin-deploy'
+    'ionic-plugin-deploy',
+    'https://github.com/phonegap-build/PushPlugin.git',
+    'https://github.com/phonegap/phonegap-plugin-push'
 ];
 
 // no need to configure below
