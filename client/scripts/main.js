@@ -35,6 +35,7 @@ var run = function($ionicPlatform, $window) {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
         if ($window.cordova && $window.cordova.plugins.Keyboard) {
+            console.log('Here');
             $window.cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         }
         if ($window.StatusBar) {
@@ -43,6 +44,11 @@ var run = function($ionicPlatform, $window) {
         if ($window.TestFairy) {
             $window.TestFairy.begin(process.env.TESTFAIRY_IOS_APP_TOKEN);
         }
+        // console.log('window.plugin', window.plugin);
+        // console.log('window.cordova', window.cordova);
+
+        // console.log('$window.cordova.plugins', $window.cordova.plugins);
+        // console.log('window.cordova.plugins', window.cordova.plugins);
     });
 };
 

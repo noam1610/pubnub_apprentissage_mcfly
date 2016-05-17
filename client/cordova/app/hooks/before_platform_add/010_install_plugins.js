@@ -8,6 +8,7 @@
 // or the URL
 var pluginlist = [
     'cordova-plugin-crosswalk-webview',
+    'cordova-plugin-whitelist',
     'cordova-plugin-device-motion',
     'cordova-plugin-device-orientation',
     'cordova-plugin-geolocation',
@@ -22,12 +23,11 @@ var pluginlist = [
     'cordova-plugin-splashscreen',
     'cordova-plugin-inappbrowser',
     'cordova-plugin-camera',
-    'cordova-plugin-whitelist',
     'ionic-plugin-keyboard',
-    'https://github.com/testfairy/testfairy-cordova-plugin',
     'ionic-plugin-deploy',
-    'https://github.com/phonegap-build/PushPlugin.git',
-    'https://github.com/phonegap/phonegap-plugin-push'
+    'https://github.com/pushandplay/cordova-plugin-apprate.git',
+    'phonegap-plugin-push',
+    'phonegap-plugin-barcodescanner'
 ];
 
 // no need to configure below
