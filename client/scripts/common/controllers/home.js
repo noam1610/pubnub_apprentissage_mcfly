@@ -80,7 +80,7 @@ module.exports = function(app) {
             });
         };
 
-        pubnubConnect.initNotification();
+        //pubnubConnect.initNotification();
     }
 
     controller.$inject = deps;
